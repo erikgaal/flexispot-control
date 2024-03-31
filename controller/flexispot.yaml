@@ -55,6 +55,7 @@ button:
 
 web_server:
   port: 80
+  ota: false
 
 mdns:
   services:
