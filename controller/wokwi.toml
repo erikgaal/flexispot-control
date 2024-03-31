@@ -1,0 +1,8 @@
+[wokwi]
+version = 1
+elf = ".esphome/build/flexispot/.pioenvs/flexispot/firmware.elf"
+firmware = ".esphome/build/flexispot/.pioenvs/flexispot/firmware.bin"
+
+[[net.forward]]
+from = "localhost:8180"
+to = "target:80"
